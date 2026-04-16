@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CityHub MDM Agent</string>
+
+    <!-- Opções de tema exibidas no Spinner -->
+
+    <!-- Valores internos correspondentes -->
+
+    <!-- Opções de modo de filtro -->
+    <string-array name="filter_mode_options">
+        <item>Sem filtro (mostrar todos)</item>
+        <item>Allowlist (mostrar apenas permitidos)</item>
+        <item>Denylist (ocultar bloqueados)</item>
+    </string-array>
+
+    <string-array name="filter_mode_values">
+        <item>none</item>
+        <item>allowlist</item>
+        <item>denylist</item>
+    </string-array>
+
+    <!-- Restrições do MDM -->
+    <string name="restriction_bg_color_title">Cor de fundo (Portal)</string>
+    <string name="restriction_bg_color_description">Cor hexadecimal (#RRGGBB) para o fundo do app/portal.</string>
+    <string name="restriction_admin_password_title">Senha de administrador</string>
+    <string name="restriction_admin_password_description">Senha exigida para acessar as configurações locais.</string>
+    <string name="restriction_app_filter_mode_title">Modo de filtro de apps</string>
+    <string name="restriction_app_filter_mode_description">Define se o launcher usa allowlist, denylist ou nenhum filtro.</string>
+    <string name="restriction_allowed_apps_title">Apps permitidos (allowlist)</string>
+    <string name="restriction_allowed_apps_description">Lista de pacotes separados por vírgula. Ex: com.google.android.chrome,com.whatsapp</string>
+    <string name="restriction_denied_apps_title">Apps bloqueados (denylist)</string>
+    <string name="restriction_denied_apps_description">Lista de pacotes separados por vírgula que serão ocultados do launcher.</string>
+    <string name="restriction_lock_wallpaper_enabled_title">Ativar wallpaper da tela de bloqueio</string>
+    <string name="restriction_lock_wallpaper_enabled_description">Quando verdadeiro, o wallpaper da lock screen é substituído pelo agente.</string>
+    <string name="restriction_lock_wallpaper_uri_title">URI da imagem da tela de bloqueio</string>
+    <string name="restriction_lock_wallpaper_uri_description">URI exclusiva para a lock screen. Se vazio, usa a imagem/cor do portal.</string>
+
+    <string name="restriction_block_settings_title">Bloquear Configurações do Android</string>
+    <string name="restriction_block_settings_description">Quando ativado, o acesso ao app de Configurações do sistema será bloqueado pelo agente.</string>
+
+    <string name="restriction_welcome_text_title">Texto de Boas-vindas</string>
+    <string name="restriction_welcome_text_description">Pequeno texto exibido na tela inicial do portal.</string>
+
+    <string name="restriction_auto_start_title">Início Automático (Boot)</string>
+    <string name="restriction_auto_start_description">Inicia o serviço de monitoramento automaticamente quando o dispositivo é ligado.</string>
+
+    <string name="restriction_config_json_title">Configuração via JSON (Simplificada)</string>
+    <string name="restriction_config_json_description">Permite enviar todas as configurações em um único campo JSON. Sobrescreve campos individuais se presente.</string>
+
+    <string name="restriction_home_apps_title">Apps da Tela Inicial</string>
+    <string name="restriction_home_apps_description">Lista de pacotes separados por vírgula para exibir como atalhos na tela inicial.</string>
+    <string name="restriction_deeplink_list_title">Lista de Deeplinks para Execução</string>
+    <string name="restriction_deeplink_list_description">Lista de URIs de deeplink separadas por vírgula para serem executadas automaticamente.</string>
+
+    <string name="tab_all">Todos</string>
+    <string name="tab_allowed">Permitidos</string>
+    <string name="tab_denied">Bloqueados</string>
+    <string name="tab_home">Home</string>
+
+    <string name="settings_manage_apps_label">Configurar listas (Allow/Deny/Home)</string>
+
+</resources>

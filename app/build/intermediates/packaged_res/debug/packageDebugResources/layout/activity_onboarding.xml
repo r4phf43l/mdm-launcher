@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Tela de onboarding.
+    Estrutura vertical: ícone grande → título → descrição → dots → botões.
+    Sem Material Components — compatível com API 19.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp">
+
+    <!-- Ícone / ilustração do passo -->
+    <ImageView
+        android:id="@+id/ivOnboardIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Ilustração do passo" />
+
+    <!-- Título do passo -->
+    <TextView
+        android:id="@+id/tvOnboardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.15" />
+
+    <!-- Descrição do passo -->
+    <TextView
+        android:id="@+id/tvOnboardDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="15sp"
+        android:lineSpacingMultiplier="1.4" />
+
+    <!-- Lista de Permissões (Aparece apenas no último passo) -->
+    <LinearLayout
+        android:id="@+id/layoutPermissionStatus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvPermOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Sobreposição: Pendente"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tvPermUsage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Acesso ao Uso: Pendente"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tvPermBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Otimização Bateria: Pendente"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tvPermStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Armazenamento: Pendente"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            android:padding="4dp" />
+
+    </LinearLayout>
+
+    <!-- Dots de progresso -->
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botões Voltar / Próximo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnOnboardBack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="← Voltar"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnOnboardNext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:text="Próximo →" />
+
+    </LinearLayout>
+
+    <!-- Créditos -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CITYHUB MDM\nrafaantonio"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="11sp"
+        android:alpha="0.5" />
+
+</LinearLayout>

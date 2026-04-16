@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/settings_bg"
+    android:padding="16dp">
+
+    <!-- Header Style -->
+    <TextView
+        android:id="@+id/tvCurrentMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerenciar Aplicativos"
+        android:textColor="@color/settings_text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione quais apps podem ser executados ou exibidos na Home."
+        android:textColor="@color/settings_text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Search Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_settings_card"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="4dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_menu_search"
+            android:alpha="0.6" />
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:hint="Buscar por nome ou pacote..."
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:textColor="@color/settings_text_primary"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- Tabs Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp"
+        android:padding="2dp"
+        android:background="@drawable/bg_settings_card">
+
+        <Button
+            android:id="@+id/btnTabAllow"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Permitidos"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="@color/settings_accent" />
+
+        <Button
+            android:id="@+id/btnTabDeny"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Bloqueados"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="@color/settings_text_secondary" />
+
+        <Button
+            android:id="@+id/btnTabHome"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:textColor="@color/settings_text_secondary" />
+    </LinearLayout>
+
+    <!-- Lista de apps -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvApps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <!-- Footer Actions -->
+    <Button
+        android:id="@+id/btnSaveApps"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_settings_card"
+        android:backgroundTint="@color/settings_accent"
+        android:text="Salvar Alterações"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

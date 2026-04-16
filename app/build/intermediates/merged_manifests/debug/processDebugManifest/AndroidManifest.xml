@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cityhub.agent"
+    android:versionCode="9"
+    android:versionName="1.4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="34" />
+
+    <!-- ─── Permissões ────────────────────────────────────────────────────── -->
+
+
+    <!--
+        Leitura de armazenamento externo para o picker de imagem de fundo.
+        API 23–32: READ_EXTERNAL_STORAGE (runtime).
+        API 19–22: concedida na instalação.
+    -->
+    <!--
+        SET_WALLPAPER é tipo "normal" — concedida na instalação, sem prompt.
+        Necessária para aplicar wallpaper na tela de bloqueio via WallpaperManager.
+    -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+
+    <permission
+        android:name="com.cityhub.agent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cityhub.agent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="com.cityhub.agent.App"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CityHubLauncher" >
+
+        <!-- ─── Metadados do Desenvolvedor ───────────────────────────────── -->
+        <meta-data
+            android:name="developer_name"
+            android:value="RafaAntonio (R4PHF43L)" />
+        <meta-data
+            android:name="developer_github"
+            android:value="github.com/r4phf43l" />
+        <meta-data
+            android:name="developer_email"
+            android:value="rafael.aantonio@gmail.com" />
+
+        <!-- ─── OnboardingActivity — ponto de entrada do app ─────────────── -->
+        <activity
+            android:name="com.cityhub.agent.OnboardingActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ─── MainActivity — portal de apps do agente ──────────────────── -->
+        <activity
+            android:name="com.cityhub.agent.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- ─── SettingsActivity ─────────────────────────────────────────── -->
+        <activity
+            android:name="com.cityhub.agent.SettingsActivity"
+            android:exported="false"
+            android:label="Configurações — CityHub"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- ─── AppManagerActivity ───────────────────────────────────────── -->
+        <activity
+            android:name="com.cityhub.agent.AppManagerActivity"
+            android:exported="false"
+            android:label="Gerenciar Apps" />
+
+        <!-- ─── BlockedAppActivity ───────────────────────────────────────── -->
+        <activity
+            android:name="com.cityhub.agent.BlockedAppActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+
+        <!-- ─── Receiver MDM ─────────────────────────────────────────────── -->
+        <receiver
+            android:name="com.cityhub.agent.MdmConfigReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_RESTRICTIONS_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver para início automático no boot e atualização -->
+        <receiver
+            android:name="com.cityhub.agent.BootReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.cityhub.agent.OverlayService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" >
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Monitoramento de conformidade de segurança e MDM" />
+        </service>
+
+        <!--
+            Schema de Managed Configuration para o MDM.
+            Consoles como Intune e Workspace ONE leem este arquivo para
+            gerar o formulário de config no portal do administrador.
+        -->
+        <meta-data
+            android:name="android.content.APP_RESTRICTIONS"
+            android:resource="@xml/app_restrictions" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.cityhub.agent.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

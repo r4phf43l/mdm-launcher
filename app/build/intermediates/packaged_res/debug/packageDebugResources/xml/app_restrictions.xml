@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Managed Configuration (AppRestrictions) declarada para MDMs compatíveis
+    (Microsoft Intune, VMware Workspace ONE, MobileIron, etc.).
+
+    Este arquivo é lido pelo sistema Android para gerar a UI de configuração
+    no console do MDM. Os valores aqui definidos são enviados ao app via
+    RestrictionsManager.getApplicationRestrictions().
+
+    Referência: https://developer.android.com/work/managed-configurations
+-->
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ─── Cor de fundo ──────────────────────────────────────────────────── -->
+    <restriction
+        android:key="bg_color"
+        android:title="@string/restriction_bg_color_title"
+        android:description="@string/restriction_bg_color_description"
+        android:restrictionType="string"
+        android:defaultValue="#1A1A2E" />
+
+
+    <!-- ─── Senha admin ───────────────────────────────────────────────────── -->
+    <restriction
+        android:key="admin_password"
+        android:title="@string/restriction_admin_password_title"
+        android:description="@string/restriction_admin_password_description"
+        android:restrictionType="string"
+        android:defaultValue="admin123" />
+
+    <!-- ─── Modo de filtro de apps ────────────────────────────────────────── -->
+    <restriction
+        android:key="app_filter_mode"
+        android:title="@string/restriction_app_filter_mode_title"
+        android:description="@string/restriction_app_filter_mode_description"
+        android:restrictionType="choice"
+        android:defaultValue="none"
+        android:entries="@array/filter_mode_options"
+        android:entryValues="@array/filter_mode_values" />
+
+    <!-- ─── Allowlist ─────────────────────────────────────────────────────── -->
+    <restriction
+        android:key="allowed_apps"
+        android:title="@string/restriction_allowed_apps_title"
+        android:description="@string/restriction_allowed_apps_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+    <!-- ─── Denylist ──────────────────────────────────────────────────────── -->
+    <restriction
+        android:key="denied_apps"
+        android:title="@string/restriction_denied_apps_title"
+        android:description="@string/restriction_denied_apps_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+    <!-- ─── Home Apps ──────────────────────────────────────────────────────── -->
+    <restriction
+        android:key="home_apps"
+        android:title="@string/restriction_home_apps_title"
+        android:description="@string/restriction_home_apps_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+    <!-- ─── Wallpaper da tela de bloqueio ────────────────────────────────── -->
+    <restriction
+        android:key="lock_wallpaper_enabled"
+        android:title="@string/restriction_lock_wallpaper_enabled_title"
+        android:description="@string/restriction_lock_wallpaper_enabled_description"
+        android:restrictionType="bool"
+        android:defaultValue="false" />
+
+    <restriction
+        android:key="lock_wallpaper_uri"
+        android:title="@string/restriction_lock_wallpaper_uri_title"
+        android:description="@string/restriction_lock_wallpaper_uri_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+    <!-- ─── Bloqueio de Configurações ──────────────────────────────────────── -->
+    <restriction
+        android:key="block_settings"
+        android:title="@string/restriction_block_settings_title"
+        android:description="@string/restriction_block_settings_description"
+        android:restrictionType="bool"
+        android:defaultValue="false" />
+
+    <!-- ─── Texto de Boas-vindas ────────────────────────────────────────── -->
+    <restriction
+        android:key="welcome_text"
+        android:title="@string/restriction_welcome_text_title"
+        android:description="@string/restriction_welcome_text_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+    <!-- ─── Configuração via JSON (Simplificada) ──────────────────────────── -->
+    <restriction
+        android:key="config_json"
+        android:title="@string/restriction_config_json_title"
+        android:description="@string/restriction_config_json_description"
+        android:restrictionType="string"
+        android:defaultValue="" />
+
+</restrictions>

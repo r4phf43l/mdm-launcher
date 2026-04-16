@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone: sol + lua (tema claro/escuro) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Sol (metade esquerda) -->
+    <path android:fillColor="#EDD882"
+        android:pathData="M6.76,4.84l-1.8,-1.79 -1.41,1.41 1.79,1.79 1.42,-1.41z
+            M4,10.5H1v2h3v-2zm9,-9.95h-2V3.5h2V0.55zm7.45,3.91l-1.41,-1.41 -1.79,1.79 1.41,1.41 1.79,-1.79z
+            M20,10.5v2h3v-2h-3zm-8,-5c-3.31,0 -6,2.69 -6,6s2.69,6 6,6 6,-2.69 6,-6 -2.69,-6 -6,-6z"/>
+    <!-- Lua (metade direita, sobreposta) -->
+    <path android:fillColor="#1A1A2E"
+        android:pathData="M12,6c0,3.31 -2.69,6 -6,6v12h12V6h-6z"
+        android:fillAlpha="0.55"/>
+    <path android:fillColor="#C9A84C"
+        android:pathData="M17.5,11.5c-2.21,0 -4,-1.79 -4,-4 0,-0.74 0.21,-1.43 0.58,-2.01
+            C12.86,6.25 12,7.76 12,9.5c0,2.76 2.24,5 5,5 1.74,0 3.25,-0.86 4.01,-2.08
+            -0.57,0.37 -1.27,0.58 -2.01,0.58z"/>
+</vector>

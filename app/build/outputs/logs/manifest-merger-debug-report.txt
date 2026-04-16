@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:2:1-131:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/rafael.antonio/.gradle/caches/transforms-4/60115bed8ac82bdc3bcf249503df4a09/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/bb8bbb7a30cb051b241447b2d54a27da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/20c7188e52ab6b7929f02c9e0bf5ea6a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/rafael.antonio/.gradle/caches/transforms-4/d07646564b6db3e7907b9f6b6483547b/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b79b11746cffa83d90073535c330caf3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rafael.antonio/.gradle/caches/transforms-4/b12fb18616cd32cb353e50af741b9ce5/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/rafael.antonio/.gradle/caches/transforms-4/0623e28e286602e8f60d6fed2484467d/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/59ba4ecf8c4e43f07656e64daec7606a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9500481f1e52a87771f3b608644e4fa9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/45e25018a9922164e73496574d2d6895/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/02dc47266c205d47ec69fd373bc602c8/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/c97ff0c94f39f9286e537ee16dae2918/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/1a7d0f2b9c8c6709bae10d337255849a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b6bc61d428ea67c6444c535f9813eb24/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/336f886b5be639b6d1fcc7ca0348be2b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/efd46819b6e4a05dc382c4e14037114f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/695b13a82efa6737f41132973117fa77/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9730e5cdf24e2f297f4bb3c37f69f4bf/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rafael.antonio/.gradle/caches/transforms-4/22fc0778bfe813063c8235e877632f45/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/4c3c0ff2d769ed4964db8492eb4b107c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/90fdcfc86d716f81c8950c3d1531ea81/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/5e574469dee1500aa54688128154aa15/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/ed2c1c216d9d5d503effbaa783ccd82f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/49c7b9e2f825a2ebfde5cbc1bd5f793f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/869c6e49e2208292d3bd6d0a892156a2/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/7289d3e8965b430e46a3647a0c01ebd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b504f499dde36a0f1761d70f99697d4b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:16:5-72
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:16:22-69
+uses-permission#android.permission.SET_WALLPAPER_HINTS
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:17:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:19:5-77
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:19:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:20:5-89
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:20:22-86
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:21:5-107
+	android:maxSdkVersion
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:21:78-104
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:23:22-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:25:5-95
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:25:22-92
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:26:22-81
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:27:5-29:53
+	xmlns:tools
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:28:9-55
+	tools:ignore
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:27:22-74
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:30:5-32:47
+	xmlns:tools
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:31:9-55
+	tools:ignore
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:30:22-75
+application
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:34:5-130:19
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:34:5-130:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/rafael.antonio/.gradle/caches/transforms-4/60115bed8ac82bdc3bcf249503df4a09/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/rafael.antonio/.gradle/caches/transforms-4/60115bed8ac82bdc3bcf249503df4a09/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/ed2c1c216d9d5d503effbaa783ccd82f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/ed2c1c216d9d5d503effbaa783ccd82f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:36:9-41
+	android:roundIcon
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:38:9-54
+	android:icon
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:37:9-43
+	android:theme
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:40:9-53
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:35:9-28
+meta-data#developer_name
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:43:9-91
+	android:value
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:43:50-88
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:43:20-49
+meta-data#developer_github
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:44:9-90
+	android:value
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:44:52-87
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:44:20-51
+meta-data#developer_email
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:45:9-95
+	android:value
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:45:51-92
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:45:20-50
+activity#com.cityhub.agent.OnboardingActivity
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:48:9-56:20
+	android:launchMode
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:51:13-43
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:49:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:52:13-55:29
+action#android.intent.action.MAIN
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:54:27-74
+activity#com.cityhub.agent.MainActivity
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:59:9-70:20
+	android:stateNotNeeded
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:63:13-42
+	android:launchMode
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:62:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:64:13-60
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:60:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:65:13-69:29
+category#android.intent.category.HOME
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:67:17-73
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:67:27-70
+category#android.intent.category.DEFAULT
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:68:27-73
+activity#com.cityhub.agent.SettingsActivity
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:73:9-77:58
+	android:label
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:76:13-52
+	android:windowSoftInputMode
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:77:13-55
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:75:13-37
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:74:13-45
+activity#com.cityhub.agent.AppManagerActivity
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:80:9-83:46
+	android:label
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:83:13-43
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:81:13-47
+activity#com.cityhub.agent.BlockedAppActivity
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:86:9-90:49
+	android:excludeFromRecents
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:90:13-46
+	android:launchMode
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:89:13-48
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:88:13-37
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:87:13-47
+receiver#com.cityhub.agent.MdmConfigReceiver
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:93:9-99:20
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:95:13-36
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:94:13-46
+intent-filter#action:name:android.intent.action.APPLICATION_RESTRICTIONS_CHANGED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:96:13-98:29
+action#android.intent.action.APPLICATION_RESTRICTIONS_CHANGED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:97:17-97
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:97:25-94
+receiver#com.cityhub.agent.BootReceiver
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:102:9-109:20
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:104:13-36
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:103:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:105:13-108:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:106:17-79
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:106:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:107:17-84
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:107:25-81
+service#com.cityhub.agent.OverlayService
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:111:9-119:19
+	android:enabled
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:113:13-35
+	android:exported
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:114:13-37
+	android:foregroundServiceType
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:115:13-55
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:112:13-43
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:116:13-118:84
+	android:value
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:118:17-81
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:117:17-76
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:126:9-128:56
+	android:resource
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:128:13-53
+	android:name
+		ADDED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml:127:13-60
+uses-sdk
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/rafael.antonio/.gradle/caches/transforms-4/60115bed8ac82bdc3bcf249503df4a09/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/rafael.antonio/.gradle/caches/transforms-4/60115bed8ac82bdc3bcf249503df4a09/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/bb8bbb7a30cb051b241447b2d54a27da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/bb8bbb7a30cb051b241447b2d54a27da/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/20c7188e52ab6b7929f02c9e0bf5ea6a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/rafael.antonio/.gradle/caches/transforms-4/20c7188e52ab6b7929f02c9e0bf5ea6a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/rafael.antonio/.gradle/caches/transforms-4/d07646564b6db3e7907b9f6b6483547b/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/rafael.antonio/.gradle/caches/transforms-4/d07646564b6db3e7907b9f6b6483547b/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b79b11746cffa83d90073535c330caf3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b79b11746cffa83d90073535c330caf3/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rafael.antonio/.gradle/caches/transforms-4/b12fb18616cd32cb353e50af741b9ce5/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/rafael.antonio/.gradle/caches/transforms-4/b12fb18616cd32cb353e50af741b9ce5/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/rafael.antonio/.gradle/caches/transforms-4/0623e28e286602e8f60d6fed2484467d/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/rafael.antonio/.gradle/caches/transforms-4/0623e28e286602e8f60d6fed2484467d/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/59ba4ecf8c4e43f07656e64daec7606a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/59ba4ecf8c4e43f07656e64daec7606a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9500481f1e52a87771f3b608644e4fa9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9500481f1e52a87771f3b608644e4fa9/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/45e25018a9922164e73496574d2d6895/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/45e25018a9922164e73496574d2d6895/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/02dc47266c205d47ec69fd373bc602c8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/02dc47266c205d47ec69fd373bc602c8/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/c97ff0c94f39f9286e537ee16dae2918/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/c97ff0c94f39f9286e537ee16dae2918/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/1a7d0f2b9c8c6709bae10d337255849a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/1a7d0f2b9c8c6709bae10d337255849a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b6bc61d428ea67c6444c535f9813eb24/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b6bc61d428ea67c6444c535f9813eb24/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/336f886b5be639b6d1fcc7ca0348be2b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/336f886b5be639b6d1fcc7ca0348be2b/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/efd46819b6e4a05dc382c4e14037114f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/efd46819b6e4a05dc382c4e14037114f/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/695b13a82efa6737f41132973117fa77/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/695b13a82efa6737f41132973117fa77/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9730e5cdf24e2f297f4bb3c37f69f4bf/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/9730e5cdf24e2f297f4bb3c37f69f4bf/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rafael.antonio/.gradle/caches/transforms-4/22fc0778bfe813063c8235e877632f45/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/rafael.antonio/.gradle/caches/transforms-4/22fc0778bfe813063c8235e877632f45/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/4c3c0ff2d769ed4964db8492eb4b107c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/4c3c0ff2d769ed4964db8492eb4b107c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/90fdcfc86d716f81c8950c3d1531ea81/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/90fdcfc86d716f81c8950c3d1531ea81/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/5e574469dee1500aa54688128154aa15/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/5e574469dee1500aa54688128154aa15/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/ed2c1c216d9d5d503effbaa783ccd82f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/ed2c1c216d9d5d503effbaa783ccd82f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/49c7b9e2f825a2ebfde5cbc1bd5f793f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/49c7b9e2f825a2ebfde5cbc1bd5f793f/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/869c6e49e2208292d3bd6d0a892156a2/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/rafael.antonio/.gradle/caches/transforms-4/869c6e49e2208292d3bd6d0a892156a2/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/7289d3e8965b430e46a3647a0c01ebd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rafael.antonio/.gradle/caches/transforms-4/7289d3e8965b430e46a3647a0c01ebd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b504f499dde36a0f1761d70f99697d4b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rafael.antonio/.gradle/caches/transforms-4/b504f499dde36a0f1761d70f99697d4b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rafael.antonio/.gradle/caches/transforms-4/9b1137ee530b2ec57888bb12abf9aac8/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/rafael.antonio/.gradle/caches/transforms-4/e1fb9fc892c43885899e64ca01640228/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.cityhub.agent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.cityhub.agent.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/rafael.antonio/.gradle/caches/transforms-4/d7f65ba514a9d7138ba1763b9cfbf3c7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/rafael.antonio/.gradle/caches/transforms-4/eae129bfdcfa17f6fa515473c5a4da52/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

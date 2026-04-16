@@ -1,0 +1,4 @@
+com.cityhub.agent.test.app-androidTest-0 /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/build/generated/res/resValues/androidTest/debug
+com.cityhub.agent.test.app-mergeDebugAndroidTestResources-1 /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.cityhub.agent.test.app-mergeDebugAndroidTestResources-2 /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.cityhub.agent.test.app-debugAndroidTest-3 /Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cityhub.agent.app-mergeDebugResources-21:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/rafael.antonio/AndroidStudioProjects/cityhub-launcher/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "12,11,13,2",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "481,434,523,55",
+                        "endLines": "12,11,13,9",
+                        "endColumns": "41,46,44,12",
+                        "endOffsets": "518,476,563,428"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,144,821",
+                        "endLines": "2,3,4,19",
+                        "endColumns": "41,46,44,12",
+                        "endOffsets": "92,139,184,1165"
+                    }
+                },
+                {
+                    "source": "/Users/rafael.antonio/.gradle/caches/transforms-4/20c7188e52ab6b7929f02c9e0bf5ea6a/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,20",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "189,259,343,427,523,625,727,1170",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "254,338,422,518,620,722,816,1254"
+                    }
+                }
+            ]
+        }
+    ]
+}
